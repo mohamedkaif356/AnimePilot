@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.13.2" type="incidents">
+
+    <incident
+        id="KaptUsageInsteadOfKsp"
+        severity="warning"
+        message="This library supports using KSP instead of kapt, which greatly improves performance. Learn more: https://developer.android.com/studio/build/migrate-to-ksp">
+        <show-url
+            description="Learn about how to enable KSP and use the KSP processor for this dependency instead"
+            url="https://developer.android.com/studio/build/migrate-to-ksp"/>
+        <location
+            file="${:core*projectDir}/build.gradle.kts"
+            line="63"
+            column="5"
+            startOffset="1579"
+            endLine="63"
+            endColumn="29"
+            endOffset="1603"/>
+    </incident>
+
+</incidents>

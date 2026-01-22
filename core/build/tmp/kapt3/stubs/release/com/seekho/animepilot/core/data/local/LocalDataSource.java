@@ -1,0 +1,29 @@
+package com.seekho.animepilot.core.data.local;
+
+@kotlin.Metadata(mv = {2, 3, 0}, k = 1, xi = 48, d1 = {"\u00004\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0004\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0010\b\n\u0002\b\u0003\bf\u0018\u00002\u00020\u0001J\u001c\u0010\u0002\u001a\u00020\u00032\f\u0010\u0004\u001a\b\u0012\u0004\u0012\u00020\u00060\u0005H\u00a6@\u00a2\u0006\u0002\u0010\u0007J\u0014\u0010\b\u001a\u000e\u0012\n\u0012\b\u0012\u0004\u0012\u00020\u00060\u00050\tH&J\u000e\u0010\n\u001a\u00020\u0003H\u00a6@\u00a2\u0006\u0002\u0010\u000bJ\u0016\u0010\f\u001a\u00020\u00032\u0006\u0010\r\u001a\u00020\u000eH\u00a6@\u00a2\u0006\u0002\u0010\u000fJ\u0018\u0010\u0010\u001a\u0004\u0018\u00010\u000e2\u0006\u0010\u0011\u001a\u00020\u0012H\u00a6@\u00a2\u0006\u0002\u0010\u0013J\u0018\u0010\u0014\u001a\n\u0012\u0006\u0012\u0004\u0018\u00010\u000e0\t2\u0006\u0010\u0011\u001a\u00020\u0012H&\u00a8\u0006\u0015\u00c0\u0006\u0003"}, d2 = {"Lcom/seekho/animepilot/core/data/local/LocalDataSource;", "", "saveAnimeList", "", "entities", "", "Lcom/seekho/animepilot/core/data/db/entity/AnimeEntity;", "(Ljava/util/List;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;", "observeAnimeList", "Lkotlinx/coroutines/flow/Flow;", "clearAnimeList", "(Lkotlin/coroutines/Continuation;)Ljava/lang/Object;", "saveAnimeDetail", "entity", "Lcom/seekho/animepilot/core/data/db/entity/AnimeDetailEntity;", "(Lcom/seekho/animepilot/core/data/db/entity/AnimeDetailEntity;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;", "getAnimeDetail", "id", "", "(ILkotlin/coroutines/Continuation;)Ljava/lang/Object;", "observeAnimeDetail", "core_release"})
+public abstract interface LocalDataSource {
+    
+    @org.jetbrains.annotations.Nullable()
+    public abstract java.lang.Object saveAnimeList(@org.jetbrains.annotations.NotNull()
+    java.util.List<com.seekho.animepilot.core.data.db.entity.AnimeEntity> entities, @org.jetbrains.annotations.NotNull()
+    kotlin.coroutines.Continuation<? super kotlin.Unit> $completion);
+    
+    @org.jetbrains.annotations.NotNull()
+    public abstract kotlinx.coroutines.flow.Flow<java.util.List<com.seekho.animepilot.core.data.db.entity.AnimeEntity>> observeAnimeList();
+    
+    @org.jetbrains.annotations.Nullable()
+    public abstract java.lang.Object clearAnimeList(@org.jetbrains.annotations.NotNull()
+    kotlin.coroutines.Continuation<? super kotlin.Unit> $completion);
+    
+    @org.jetbrains.annotations.Nullable()
+    public abstract java.lang.Object saveAnimeDetail(@org.jetbrains.annotations.NotNull()
+    com.seekho.animepilot.core.data.db.entity.AnimeDetailEntity entity, @org.jetbrains.annotations.NotNull()
+    kotlin.coroutines.Continuation<? super kotlin.Unit> $completion);
+    
+    @org.jetbrains.annotations.Nullable()
+    public abstract java.lang.Object getAnimeDetail(int id, @org.jetbrains.annotations.NotNull()
+    kotlin.coroutines.Continuation<? super com.seekho.animepilot.core.data.db.entity.AnimeDetailEntity> $completion);
+    
+    @org.jetbrains.annotations.NotNull()
+    public abstract kotlinx.coroutines.flow.Flow<com.seekho.animepilot.core.data.db.entity.AnimeDetailEntity> observeAnimeDetail(int id);
+}

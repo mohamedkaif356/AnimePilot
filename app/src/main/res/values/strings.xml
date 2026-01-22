@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">AnimePilot</string>
+    
+    <!-- Screen Titles -->
+    <string name="screen_title_top_anime">Top Anime</string>
+    <string name="screen_title_anime_details">Anime Details</string>
+    
+    <!-- Navigation -->
+    <string name="nav_back">Back</string>
+    
+    <!-- Content Descriptions -->
+    <string name="content_desc_anime_poster">Anime poster</string>
+    <string name="content_desc_offline">Offline</string>
+    <string name="content_desc_retry">Retry</string>
+    
+    <!-- Anime Information -->
+    <string name="anime_rating">Rating: %1$s</string>
+    <string name="anime_episodes">Episodes: %1$d</string>
+    <string name="anime_synopsis">Synopsis</string>
+    <string name="anime_genres">Genres</string>
+    <string name="anime_cast">Cast</string>
+    
+    <!-- Status Messages -->
+    <string name="status_offline_mode">Offline mode - Showing cached data</string>
+    <string name="status_no_anime_available">No anime available</string>
+    <string name="status_failed_to_load_more">Failed to load more</string>
+    <string name="status_end_of_list">No more results</string>
+    
+    <!-- Content Descriptions -->
+    <string name="content_desc_empty_state">Empty state</string>
+    
+    <!-- Trailer/Video -->
+    <string name="trailer_watch_on_youtube">Watch on YouTube</string>
+    <string name="trailer_embedding_restricted">This trailer cannot be embedded due to YouTube restrictions. Tap the button below to watch on YouTube.</string>
+    <string name="trailer_embedding_restricted_reason">Embedding restrictions may be due to video owner settings, content protection, or geographic restrictions.</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.seekho.animepilot.core.util.ErrorMapperTest" tests="29" skipped="0" failures="0" errors="0" timestamp="2026-01-22T02:49:04.215Z" hostname="WSA-HN967W0XXF.local" time="0.005">
+  <properties/>
+  <testcase name="getErrorTitle returns correct title for UnknownError" classname="com.seekho.animepilot.core.util.ErrorMapperTest" time="0.001"/>
+  <testcase name="map returns NotFound for SQLiteException" classname="com.seekho.animepilot.core.util.ErrorMapperTest" time="0.0"/>
+  <testcase name="toUserMessage returns correct message for NoInternet" classname="com.seekho.animepilot.core.util.ErrorMapperTest" time="0.0"/>
+  <testcase name="getErrorTitle returns correct title for CacheError" classname="com.seekho.animepilot.core.util.ErrorMapperTest" time="0.0"/>
+  <testcase name="map returns HttpError with correct code for HttpException" classname="com.seekho.animepilot.core.util.ErrorMapperTest" time="0.0"/>
+  <testcase name="getErrorTitle returns correct title for DataError" classname="com.seekho.animepilot.core.util.ErrorMapperTest" time="0.0"/>
+  <testcase name="toUserMessage returns correct message for NotFound" classname="com.seekho.animepilot.core.util.ErrorMapperTest" time="0.0"/>
+  <testcase name="toUserMessage returns correct message for EmptyResponse" classname="com.seekho.animepilot.core.util.ErrorMapperTest" time="0.0"/>
+  <testcase name="getErrorTitle returns correct title for Timeout" classname="com.seekho.animepilot.core.util.ErrorMapperTest" time="0.0"/>
+  <testcase name="toUserMessage returns correct message for HttpError 401" classname="com.seekho.animepilot.core.util.ErrorMapperTest" time="0.002"/>
+  <testcase name="toUserMessage returns correct message for HttpError 403" classname="com.seekho.animepilot.core.util.ErrorMapperTest" time="0.0"/>
+  <testcase name="toUserMessage returns correct message for HttpError 404" classname="com.seekho.animepilot.core.util.ErrorMapperTest" time="0.0"/>
+  <testcase name="toUserMessage returns correct message for HttpError 429" classname="com.seekho.animepilot.core.util.ErrorMapperTest" time="0.0"/>
+  <testcase name="toUserMessage returns correct message for HttpError 500" classname="com.seekho.animepilot.core.util.ErrorMapperTest" time="0.0"/>
+  <testcase name="toUserMessage returns correct message for HttpError 502" classname="com.seekho.animepilot.core.util.ErrorMapperTest" time="0.0"/>
+  <testcase name="toUserMessage returns correct message for HttpError 503" classname="com.seekho.animepilot.core.util.ErrorMapperTest" time="0.001"/>
+  <testcase name="map returns UnknownError for unknown exception" classname="com.seekho.animepilot.core.util.ErrorMapperTest" time="0.0"/>
+  <testcase name="getErrorTitle returns correct title for HttpError" classname="com.seekho.animepilot.core.util.ErrorMapperTest" time="0.0"/>
+  <testcase name="toUserMessage returns correct message for UnknownError" classname="com.seekho.animepilot.core.util.ErrorMapperTest" time="0.0"/>
+  <testcase name="map returns HttpError with correct code for HttpException with 401" classname="com.seekho.animepilot.core.util.ErrorMapperTest" time="0.0"/>
+  <testcase name="map returns HttpError with correct code for HttpException with 500" classname="com.seekho.animepilot.core.util.ErrorMapperTest" time="0.0"/>
+  <testcase name="map returns NoInternet for UnknownHostException" classname="com.seekho.animepilot.core.util.ErrorMapperTest" time="0.001"/>
+  <testcase name="toUserMessage returns correct message for ParseError" classname="com.seekho.animepilot.core.util.ErrorMapperTest" time="0.0"/>
+  <testcase name="map returns NoInternet for IOException" classname="com.seekho.animepilot.core.util.ErrorMapperTest" time="0.0"/>
+  <testcase name="getErrorTitle returns correct title for NoInternet" classname="com.seekho.animepilot.core.util.ErrorMapperTest" time="0.0"/>
+  <testcase name="map returns Timeout for SocketTimeoutException" classname="com.seekho.animepilot.core.util.ErrorMapperTest" time="0.0"/>
+  <testcase name="toUserMessage returns correct message for HttpError unknown code" classname="com.seekho.animepilot.core.util.ErrorMapperTest" time="0.0"/>
+  <testcase name="toUserMessage returns correct message for Timeout" classname="com.seekho.animepilot.core.util.ErrorMapperTest" time="0.0"/>
+  <testcase name="getErrorTitle returns correct title for ParseError" classname="com.seekho.animepilot.core.util.ErrorMapperTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

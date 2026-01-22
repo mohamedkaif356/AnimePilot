@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+    
+    <!-- 
+        YouTube domains configuration for Error 152-15 fix:
+        - Ensures YouTube domains are trusted for HTTPS connections
+        - Allows proper certificate validation for YouTube CDN
+        - Required for YouTube embedding and referrer policy compliance
+        - Note: Referrer headers are handled via WebView settings and IFramePlayerOptions.origin
+        - This configuration ensures YouTube's CDN and API domains are trusted for embedded content
+    -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">youtube.com</domain>
+        <domain includeSubdomains="true">youtube-nocookie.com</domain>
+        <domain includeSubdomains="true">www.youtube.com</domain>
+        <domain includeSubdomains="true">www.youtube-nocookie.com</domain>
+        <domain includeSubdomains="true">googleapis.com</domain>
+        <domain includeSubdomains="true">gstatic.com</domain>
+        <domain includeSubdomains="true">googlevideo.com</domain>
+        <domain includeSubdomains="true">ytimg.com</domain>
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </domain-config>
+</network-security-config>

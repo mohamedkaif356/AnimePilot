@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.seekho.animepilot.core.data.remote.RemoteDataSourceImplTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-01-22T02:49:02.425Z" hostname="WSA-HN967W0XXF.local" time="1.164">
+  <properties/>
+  <testcase name="fetchAnimeDetail returns error when API returns null body" classname="com.seekho.animepilot.core.data.remote.RemoteDataSourceImplTest" time="1.1"/>
+  <testcase name="fetchTopAnime returns error when API returns null body" classname="com.seekho.animepilot.core.data.remote.RemoteDataSourceImplTest" time="0.005"/>
+  <testcase name="fetchTopAnime returns error when API returns empty list" classname="com.seekho.animepilot.core.data.remote.RemoteDataSourceImplTest" time="0.007"/>
+  <testcase name="fetchTopAnime returns HttpError when API returns 404" classname="com.seekho.animepilot.core.data.remote.RemoteDataSourceImplTest" time="0.007"/>
+  <testcase name="fetchTopAnime returns HttpError when API returns 500" classname="com.seekho.animepilot.core.data.remote.RemoteDataSourceImplTest" time="0.005"/>
+  <testcase name="fetchTopAnime returns success when API returns data" classname="com.seekho.animepilot.core.data.remote.RemoteDataSourceImplTest" time="0.007"/>
+  <testcase name="fetchAnimeDetail returns HttpError when HttpException occurs" classname="com.seekho.animepilot.core.data.remote.RemoteDataSourceImplTest" time="0.005"/>
+  <testcase name="fetchAnimeDetail returns HttpError when API returns 404" classname="com.seekho.animepilot.core.data.remote.RemoteDataSourceImplTest" time="0.004"/>
+  <testcase name="fetchTopAnime returns NoInternet when UnknownHostException occurs" classname="com.seekho.animepilot.core.data.remote.RemoteDataSourceImplTest" time="0.007"/>
+  <testcase name="fetchTopAnime returns Timeout when SocketTimeoutException occurs" classname="com.seekho.animepilot.core.data.remote.RemoteDataSourceImplTest" time="0.009"/>
+  <testcase name="fetchAnimeDetail returns success when API returns data" classname="com.seekho.animepilot.core.data.remote.RemoteDataSourceImplTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

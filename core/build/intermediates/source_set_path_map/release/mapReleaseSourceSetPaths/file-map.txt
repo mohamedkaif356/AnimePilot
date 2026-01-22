@@ -1,0 +1,33 @@
+com.seekho.animepilot.core-lifecycle-livedata-ktx-2.6.2-0 /Users/kaifbagwan/.gradle/caches/8.13/transforms/0bca0f292c8a8e1129177dbfb4b94f88/transformed/lifecycle-livedata-ktx-2.6.2/res
+com.seekho.animepilot.core-lifecycle-runtime-ktx-2.6.2-1 /Users/kaifbagwan/.gradle/caches/8.13/transforms/22888e8b6085ea5bbcacde796e6d0116/transformed/lifecycle-runtime-ktx-2.6.2/res
+com.seekho.animepilot.core-paging-runtime-3.3.6-2 /Users/kaifbagwan/.gradle/caches/8.13/transforms/2666c250e2859471812e74cfdf25dad5/transformed/paging-runtime-3.3.6/res
+com.seekho.animepilot.core-room-ktx-2.8.4-3 /Users/kaifbagwan/.gradle/caches/8.13/transforms/2f9681027105e85b8982e0fbb87fbeac/transformed/room-ktx-2.8.4/res
+com.seekho.animepilot.core-recyclerview-1.2.1-4 /Users/kaifbagwan/.gradle/caches/8.13/transforms/306d3665e39c25d74d216dbc71edcd00/transformed/recyclerview-1.2.1/res
+com.seekho.animepilot.core-core-1.17.0-5 /Users/kaifbagwan/.gradle/caches/8.13/transforms/3123cc7e950678ca8f45db0d8e58979d/transformed/core-1.17.0/res
+com.seekho.animepilot.core-tracing-1.2.0-6 /Users/kaifbagwan/.gradle/caches/8.13/transforms/323505da9bb206a2fc2e76debaeb32ac/transformed/tracing-1.2.0/res
+com.seekho.animepilot.core-lifecycle-livedata-2.6.2-7 /Users/kaifbagwan/.gradle/caches/8.13/transforms/36278b2000c12bfadc27f721743d335d/transformed/lifecycle-livedata-2.6.2/res
+com.seekho.animepilot.core-lifecycle-viewmodel-ktx-2.6.2-8 /Users/kaifbagwan/.gradle/caches/8.13/transforms/39c1374bc8403a3db61d295f2f4eb1c0/transformed/lifecycle-viewmodel-ktx-2.6.2/res
+com.seekho.animepilot.core-core-runtime-2.2.0-9 /Users/kaifbagwan/.gradle/caches/8.13/transforms/422bcb109ba8eace027c65ce03f438db/transformed/core-runtime-2.2.0/res
+com.seekho.animepilot.core-lifecycle-runtime-2.6.2-10 /Users/kaifbagwan/.gradle/caches/8.13/transforms/50870716ec86c2d765ca447eaa838ca9/transformed/lifecycle-runtime-2.6.2/res
+com.seekho.animepilot.core-lifecycle-viewmodel-savedstate-2.6.2-11 /Users/kaifbagwan/.gradle/caches/8.13/transforms/510c6302913150e9835ae64fe0849aa7/transformed/lifecycle-viewmodel-savedstate-2.6.2/res
+com.seekho.animepilot.core-activity-1.5.1-12 /Users/kaifbagwan/.gradle/caches/8.13/transforms/69e1a218912b3a4a7602270c85584fe5/transformed/activity-1.5.1/res
+com.seekho.animepilot.core-savedstate-1.2.1-13 /Users/kaifbagwan/.gradle/caches/8.13/transforms/75f08a87c2b70cbed6f042a915a8e7b3/transformed/savedstate-1.2.1/res
+com.seekho.animepilot.core-core-viewtree-1.0.0-14 /Users/kaifbagwan/.gradle/caches/8.13/transforms/7892edf9f9c2af81440dd141755185df/transformed/core-viewtree-1.0.0/res
+com.seekho.animepilot.core-profileinstaller-1.3.0-15 /Users/kaifbagwan/.gradle/caches/8.13/transforms/80d135e753a04b843fef8afe6fb0c2f1/transformed/profileinstaller-1.3.0/res
+com.seekho.animepilot.core-startup-runtime-1.2.0-16 /Users/kaifbagwan/.gradle/caches/8.13/transforms/822d4b02e385e6133e8f2865bbea7a24/transformed/startup-runtime-1.2.0/res
+com.seekho.animepilot.core-lifecycle-livedata-core-ktx-2.6.2-17 /Users/kaifbagwan/.gradle/caches/8.13/transforms/82c76dd3f10f5c3ff9f47cd89712728f/transformed/lifecycle-livedata-core-ktx-2.6.2/res
+com.seekho.animepilot.core-fragment-1.5.1-18 /Users/kaifbagwan/.gradle/caches/8.13/transforms/8573d0e1c7afdc8aaa6b3980152c0c9d/transformed/fragment-1.5.1/res
+com.seekho.animepilot.core-annotation-experimental-1.5.0-19 /Users/kaifbagwan/.gradle/caches/8.13/transforms/8775817e2002ac570163f1b38b7d0147/transformed/annotation-experimental-1.5.0/res
+com.seekho.animepilot.core-paging-runtime-ktx-3.3.6-20 /Users/kaifbagwan/.gradle/caches/8.13/transforms/97aba12f391f4faa7880616b751bd71c/transformed/paging-runtime-ktx-3.3.6/res
+com.seekho.animepilot.core-core-ktx-1.17.0-21 /Users/kaifbagwan/.gradle/caches/8.13/transforms/c4eb1dd14273b4b95e42d125066cef21/transformed/core-ktx-1.17.0/res
+com.seekho.animepilot.core-lifecycle-viewmodel-2.6.2-22 /Users/kaifbagwan/.gradle/caches/8.13/transforms/c51ff6c9f4558aae8b72595188659d67/transformed/lifecycle-viewmodel-2.6.2/res
+com.seekho.animepilot.core-paging-common-release-23 /Users/kaifbagwan/.gradle/caches/8.13/transforms/df802846cd4aed5f9e33c5e7b4f2a71b/transformed/paging-common-release/res
+com.seekho.animepilot.core-lifecycle-livedata-core-2.6.2-24 /Users/kaifbagwan/.gradle/caches/8.13/transforms/e5132fd6a94c411c07010e023fa41026/transformed/lifecycle-livedata-core-2.6.2/res
+com.seekho.animepilot.core-pngs-25 /Users/kaifbagwan/Downloads/Seekho assignment/core/build/generated/res/pngs/release
+com.seekho.animepilot.core-resValues-26 /Users/kaifbagwan/Downloads/Seekho assignment/core/build/generated/res/resValues/release
+com.seekho.animepilot.core-updated_navigation_xml-27 /Users/kaifbagwan/Downloads/Seekho assignment/core/build/generated/updated_navigation_xml/release
+com.seekho.animepilot.core-mergeReleaseResources-28 /Users/kaifbagwan/Downloads/Seekho assignment/core/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.seekho.animepilot.core-mergeReleaseResources-29 /Users/kaifbagwan/Downloads/Seekho assignment/core/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.seekho.animepilot.core-release-30 /Users/kaifbagwan/Downloads/Seekho assignment/core/build/intermediates/merged_res/release/mergeReleaseResources
+com.seekho.animepilot.core-main-31 /Users/kaifbagwan/Downloads/Seekho assignment/core/src/main/res
+com.seekho.animepilot.core-release-32 /Users/kaifbagwan/Downloads/Seekho assignment/core/src/release/res

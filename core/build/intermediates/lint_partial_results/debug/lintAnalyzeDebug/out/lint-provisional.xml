@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.13.2" type="conditional_incidents">
+
+    <incident
+        id="MissingPermission"
+        severity="error"
+        message="">
+        <fix-data missing="android.permission.ACCESS_NETWORK_STATE" message="Missing permissions required by ConnectivityManager.registerNetworkCallback: %1$s" lastApi="2147483647" operator="&amp;"/>
+        <location
+            file="${:core*debug*MAIN*sourceProvider*0*javaDir*0}/com/seekho/animepilot/core/util/ConnectivityObserver.kt"
+            line="55"
+            column="9"
+            startOffset="1911"
+            endLine="55"
+            endColumn="78"
+            endOffset="1980"/>
+        <map>
+            <entry
+                name="message"
+                string="Missing permissions required by ConnectivityManager.registerNetworkCallback: %1$s"/>
+            <entry
+                name="requirement"
+                string="android.permission.ACCESS_NETWORK_STATE"/>
+        </map>
+    </incident>
+
+    <incident
+        id="MissingPermission"
+        severity="error"
+        message="">
+        <fix-data missing="android.permission.ACCESS_NETWORK_STATE" message="Missing permissions required by ConnectivityObserverImpl.isNetworkAvailable: %1$s" lastApi="2147483647" operator="&amp;"/>
+        <location
+            file="${:core*debug*MAIN*sourceProvider*0*javaDir*0}/com/seekho/animepilot/core/util/ConnectivityObserver.kt"
+            line="57"
+            column="17"
+            startOffset="1998"
+            endLine="57"
+            endColumn="37"
+            endOffset="2018"/>
+        <map>
+            <entry
+                name="message"
+                string="Missing permissions required by ConnectivityObserverImpl.isNetworkAvailable: %1$s"/>
+            <entry
+                name="requirement"
+                string="android.permission.ACCESS_NETWORK_STATE"/>
+        </map>
+    </incident>
+
+</incidents>
