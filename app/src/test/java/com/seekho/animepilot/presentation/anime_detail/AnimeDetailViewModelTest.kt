@@ -9,16 +9,23 @@ import com.seekho.animepilot.core.util.ConnectivityObserver
 import com.seekho.animepilot.core.util.ErrorMapper
 import io.mockk.every
 import io.mockk.mockk
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flowOf
+import kotlinx.coroutines.test.StandardTestDispatcher
+import kotlinx.coroutines.test.resetMain
 import kotlinx.coroutines.test.runTest
+import kotlinx.coroutines.test.setMain
+import org.junit.After
 import org.junit.Before
 import org.junit.Test
 import app.cash.turbine.test
-import kotlinx.coroutines.ExperimentalCoroutinesApi
 
 @OptIn(ExperimentalCoroutinesApi::class)
 class AnimeDetailViewModelTest {
+
+    private val testDispatcher = StandardTestDispatcher()
 
     private lateinit var getAnimeDetailUseCase: GetAnimeDetailUseCase
     private lateinit var connectivityObserver: ConnectivityObserver
@@ -26,10 +33,16 @@ class AnimeDetailViewModelTest {
 
     @Before
     fun setup() {
+        Dispatchers.setMain(testDispatcher)
         getAnimeDetailUseCase = mockk()
         connectivityObserver = mockk(relaxed = true)
         // By default, connectivity observer emits true (online)
         every { connectivityObserver.observeConnectivity() } returns flowOf(true)
+    }
+
+    @After
+    fun tearDown() {
+        Dispatchers.resetMain()
     }
 
     private fun createTestAnimeDetail(id: Int = 1): AnimeDetail {
